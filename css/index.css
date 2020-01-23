@@ -176,6 +176,7 @@ header {
   width: 100%;
   padding-bottom: 1%;
   border-bottom: 3px dashed lightgray;
+  margin-bottom: 4%;
 }
 header nav {
   display: flex;
@@ -322,4 +323,31 @@ header nav .navDiv a {
   .btn {
     padding: 3%;
   }
+}
+.form-cont {
+  font-size: 200%;
+  margin: 3% 0%;
+}
+.form-cont input[type=text],
+.form-cont select,
+.form-cont textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.form-cont input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form-cont input[type=submit]:hover {
+  background-color: #45a049;
 }
