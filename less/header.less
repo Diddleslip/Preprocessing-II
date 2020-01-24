@@ -1,0 +1,50 @@
+// Header Styles Here
+
+header {
+    max-width: 100%;
+    width: 100%;
+    padding-bottom: 1%;
+    border-bottom: 3px dashed lightgray;
+    margin-bottom: 4%;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+
+        .navDiv {
+            display: flex;
+            width: 45%;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                width: 100%;
+                font-size: 1.5rem;
+                color: black;
+                text-decoration: none;
+            }
+        }//closes .navDiv
+    }//closes nav
+    @media @mobile {
+        nav {
+            flex-direction: column;
+            align-items: center;
+
+            .navDiv {
+                width: 100%;
+                padding-top: 2%;
+                text-align: center;
+            }
+        }
+    }
+}//closes header
+
+#heroPic {
+
+    img {
+        padding-top: 2%;
+        margin: 2% 0;
+        width: 100%;
+        border-top: 3px dashed lightgray;
+    }
+}//closes #heroPic
